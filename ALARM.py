@@ -76,7 +76,7 @@ def alarm():
                     music("jyotiba.mp3","stop")
 
                     def ren():
-                        global re
+                        
                         try:
                             re = int(input("Enter 1 to reset alarm or 0 to exit the alarm: "))
                             if re == 1:
